@@ -15,9 +15,6 @@ public class SmsPlan {
     @Column(precision = 19, scale = 4)
     private BigDecimal pricePerMessaage;
 
-    /*@OneToOne(mappedBy = "plan")
-    private Customer customer;*/
-
     public Long getId() {
         return id;
     }
